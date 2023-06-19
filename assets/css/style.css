@@ -1,0 +1,95 @@
+/*Codigo Universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Tamaño imagen*/
+img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+/*Body en general*/
+body{
+    background-color: black;
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Primera Section*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    padding: 0.5rem;
+    border-radius: 15px;
+    filter: drop-shadow(1px 1px 0.5rem rgba(94, 142, 191, 0.637));
+}
+h3{
+    padding-bottom: 0.8rem;
+    padding-top: 0.5rem;
+}
+input{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    background-color:   rgb(36, 34, 34);
+    color: azure;
+}
+button{
+    background-color: rgb(12, 12, 124);
+    color: white;
+    padding: 0.4rem;
+    border-radius:10px ;
+    margin: 1rem;
+}
+h4{
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+}
+
+i{
+    font-size: 1.2rem;
+    color: rgb(16, 55, 94) ;
+}
+i:hover{
+    color: red;
+}
+/*Section Global*/
+section{
+    background-color: rgb(180, 165, 165);
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    border: 2px solid rgba(21, 209, 134, 0.318);
+    filter: drop-shadow(2px 2px 1.8rem  rgb(6, 118, 230));
+}
+section:hover{
+    background-color: rgb(32, 143, 143);
+    transition: all 2s ease;
+}
+
+/*seguda section (article)*/
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 0.5rem;
+}
+.circulo{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid white;
+    border-radius: 90%;
+}
